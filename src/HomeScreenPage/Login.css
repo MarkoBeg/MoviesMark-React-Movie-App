@@ -1,0 +1,45 @@
+.login {
+  background-color: rgba(0, 0, 0, 0.95);
+  height: 100vh;
+}
+.login-section {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.login-section > form {
+  display: flex;
+  flex-direction: column;
+  padding: 85px;
+  background-color: rgba(0, 0, 0, 0.55);
+  border-radius: 10px;
+  border: 1px solid var(--main-color);
+}
+.login-section > form > input {
+  outline: none;
+  border: 0.5px solid var(--main-color);
+  padding: 16px 45px;
+  border-radius: 4px;
+  margin: 6px 0;
+}
+.login-btn {
+  margin-top: 15px;
+  cursor: pointer;
+  background-color: var(--main-color);
+  outline: none;
+  border: 1px solid transparent;
+  padding: 10px;
+  border-radius: 6px;
+  font-family: "Lato";
+  font-weight: 700;
+  color: #fff;
+  font-size: 20px;
+}
+.register-btn {
+  color: var(--main-color);
+  padding-top: 6px;
+  text-align: center;
+  cursor: pointer;
+  font-family: "Lato";
+  font-weight: 400;
+}

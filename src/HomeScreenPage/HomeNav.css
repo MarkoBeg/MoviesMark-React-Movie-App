@@ -1,0 +1,63 @@
+.home-nav-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px;
+  align-items: center;
+  background: transparent;
+  position: fixed;
+  height: 120px;
+  top: 0;
+  width: 100%;
+}
+.home-nav-scroll {
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px;
+  align-items: center;
+  position: fixed;
+  height: 120px;
+  top: 0;
+  width: 100%;
+}
+.home-nav-logo > h1 {
+  color: var(--main-color);
+  font-family: "Poppins";
+  font-weight: 900;
+  font-size: 48px;
+  letter-spacing: 1.2px;
+}
+.home-nav-buttons {
+  display: flex;
+  align-items: center;
+}
+.home-nav-buttons > .MuiSvgIcon-root {
+  color: var(--main-color);
+  font-size: 18px;
+  margin-right: 10px;
+}
+.home-nav-buttons > select {
+  border: 1px solid lightgrey;
+  cursor: pointer;
+  outline: none;
+  border-radius: 6px;
+  margin-right: 10px;
+  padding: 10px;
+  color: var(--main-color);
+  background-color: transparent;
+}
+.home-nav-buttons > button {
+  cursor: pointer;
+  background-color: var(--main-color);
+  outline: none;
+  border: 1px solid transparent;
+  padding: 10px;
+  border-radius: 8px;
+  font-family: "Lato";
+  font-weight: 700;
+  color: #fff;
+  font-size: 16px;
+}
+.home-nav-buttons > button:hover {
+  background-color: transparent;
+}

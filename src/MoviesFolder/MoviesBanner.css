@@ -1,0 +1,51 @@
+.movie-banner {
+  margin-top: 120px;
+  object-fit: contain;
+  height: 100vh;
+}
+.movie-banner-info {
+  padding-top: 155px;
+  max-width: 625px;
+  width: 600px;
+  padding-left: 55px;
+}
+.movie-banner-title {
+  padding: 25px 0;
+}
+.movie-banner-title > h1 {
+  font-family: "Poppins";
+  font-weight: 900;
+  font-size: 52px;
+  color: var(--main-color);
+  letter-spacing: 1.2px;
+}
+.movie-banner-title > h4 {
+  font-family: "Poppins";
+  font-size: 32px;
+  color: var(--main-color);
+  padding-top: 15px;
+}
+.movie-banner-title > p {
+  font-size: 32px;
+  color: var(--main-color);
+  font-family: "Lato";
+  padding-top: 25px;
+  font-weight: 700;
+}
+.movie-banner-btns {
+  padding-left: 20px;
+}
+.movie-banner-btns > button {
+  cursor: pointer;
+  background-color: var(--main-color);
+  outline: none;
+  border: 1px solid transparent;
+  padding: 15px;
+  border-radius: 8px;
+  font-family: "Lato";
+  font-weight: 700;
+  color: #fff;
+  font-size: 16px;
+  margin-left: 15px;
+  margin-top: 10px;
+}

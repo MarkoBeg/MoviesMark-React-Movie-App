@@ -1,0 +1,46 @@
+.hero-banner-section {
+  padding-top: 120px;
+  height: 100vh;
+}
+.hero-banner-section-info {
+  display: flex;
+  justify-content: space-around;
+}
+.hero-banner-info-left {
+  padding-top: 185px;
+  padding-left: 55px;
+  max-width: 465px;
+  color: #fff;
+  font-size: 20px;
+}
+.hero-banner-info-left > button {
+  margin-top: 25px;
+  cursor: pointer;
+  background-color: var(--main-color);
+  outline: none;
+  border: 1px solid transparent;
+  padding: 10px;
+  border-radius: 8px;
+  font-family: "Lato";
+  font-weight: 700;
+  color: #fff;
+  font-size: 16px;
+}
+.hero-banner-info-right {
+  margin-top: 300px;
+  height: 225px;
+  background-color: rgba(0, 0, 0, 0.75);
+  max-width: 450px;
+  width: 425px;
+  border-radius: 8px;
+  box-shadow: 0px 5px 6px 6px rgba(255, 255, 255, 0.65);
+}
+.hero-banner-info-right > h4 {
+  color: #fff;
+  max-width: 275px;
+  font-size: 26px;
+  font-family: "Pacifico", "sans-serif";
+  font-weight: 900;
+  padding-top: 25px;
+  padding-left: 25px;
+}
